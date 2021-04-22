@@ -115,7 +115,7 @@ public class MultithreadedClient {
     HashMap<String, String> argsMap = new HashMap<>();
     argsMap.put("numCustomersPerStore", "1000");
     argsMap.put("maxItemId", "100000");
-    argsMap.put("numPurchases", "60");
+    argsMap.put("numPurchases", "300");
     argsMap.put("numItemsPurPurchase", "5");
     argsMap.put("date", "20210101");
 
