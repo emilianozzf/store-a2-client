@@ -36,7 +36,7 @@ public class ShopRunnable implements Runnable {
     this.numItemsPurPurchase = numItemsPurPurchase;
     this.date = date;
     this.ipWithPort = ipWithPort;
-    this.basePath = "http://" + this.ipWithPort + "/store_a2_server_war";
+    this.basePath = "http://" + this.ipWithPort + "/store-a2-server_war";
     this.multithreadedClient = multithreadedClient;
   }
 
